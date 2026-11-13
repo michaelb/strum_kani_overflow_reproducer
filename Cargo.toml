@@ -1,0 +1,8 @@
+[package]
+name = "strum_kani_overflow_reproducer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+strum = { version = "*", features = ["derive"]}
+# strum = { path = "../strum/strum", features = ["derive"]}
